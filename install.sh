@@ -20,19 +20,19 @@ brew bundle
 if ! fgrep -q $(which zsh) /etc/shells; then
   echo $(which zsh) | sudo tee -a /etc/shells;
   # Install oh-my-zsh
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
+  curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | zsh;
   # Link to .zshrc and .aliases
-  ln -s .aliases ~/.aliases;
-  ln -s .zshrc ~/.zshrc;
+  ln -sf $(pwd)/.aliases ~/;
+  ln -sf $(pwd)/.zshrc ~/;
   # chsh -s $(which zsh)
 fi;
 
 # Configure Vim
 if test ! -e ~/.vim/autoload/plug.vim; then
   # Install Vim plugin manager (vim-plug).
-  /usr/bin/ruby -e "$(curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim)";
+  curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim;
   # Link to .vimrc
-  ln -s .vimrc ~/.vimrc;
+  ln -sf $(pwd)/.vimrc ~/;
   # Install Vim Plugins
   vim +PlugInstall +qall;
 fi
