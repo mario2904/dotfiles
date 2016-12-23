@@ -17,7 +17,7 @@ brew 'gcc', args: ['without-multilib']
 brew 'git'
 brew 'python'
 brew 'python3'
-brew 'vim', args: ['override-system-vim', 'with-python3']
+brew 'vim', args: ['with-override-system-vi', 'with-python3']
 brew 'zsh'
 brew 'zsh-completions'
 
