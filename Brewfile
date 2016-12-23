@@ -8,7 +8,6 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/core'
 tap 'homebrew/versions'
 
 # Recent versions of some macOS tools.
@@ -17,7 +16,7 @@ brew 'findutils'
 brew 'gcc', args: ['without-multilib']
 brew 'python'
 brew 'python3'
-brew 'macvim', args: ['with-override-system-vim', 'with-python3']
+brew 'vim', args: ['override-system-vim', 'with-python3']
 brew 'zsh'
 brew 'zsh-completions'
 
@@ -27,10 +26,8 @@ brew 'heroku'
 brew 'htop'
 brew 'httpie'
 brew 'httrack'
-brew 'icarus-verilog'
 brew 'lua'
 brew 'node'
-brew 'rust'
 brew 'speedtest_cli'
 brew 'trash'
 brew 'uncrustify'
@@ -62,6 +59,7 @@ cask 'google-chrome'
 cask 'google-drive'
 cask 'iterm2'
 cask 'karabiner'
+cask 'keepingyouawake'
 cask 'ngrok'
 cask 'openemu'
 cask 'parallels-desktop10' # Don't want to pay upgrade
