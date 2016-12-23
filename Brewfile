@@ -14,6 +14,7 @@ tap 'homebrew/versions'
 brew 'coreutils'
 brew 'findutils'
 brew 'gcc', args: ['without-multilib']
+brew 'git'
 brew 'python'
 brew 'python3'
 brew 'vim', args: ['override-system-vim', 'with-python3']
@@ -52,7 +53,6 @@ cask 'dolphin'
 cask 'eclipse-java'
 cask 'firefox'
 cask 'flux'
-cask 'github-desktop'
 cask 'gitter'
 cask 'goofy' # facebook messenger
 cask 'google-chrome'
