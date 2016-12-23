@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Show/Hide all hidden files in Finder
+alias showall="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hideall="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X:
+alias killdups='/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo "Open With has been rebuilt, Finder will relaunch"'
+
+# Recursively remove .DS_STORE files
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Add the following to your zshrc to access the online help:
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/help
