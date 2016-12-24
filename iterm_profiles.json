@@ -1,0 +1,130 @@
+{
+  "Profiles": [
+    {
+      "Name" : "Mario",
+      "Prompt Before Closing 2" : 0,
+      "Shortcut" : "M",
+      "Guid" : "C311F384-3600-411C-ADFB-B3A5424D9D50",
+      "Normal Font" : "RobotoMonoForPowerline-Regular 14",
+      "Terminal Type" : "xterm-256color",
+      "Transparency" : 0,
+      "Columns" : 80,
+      "Rows" : 25,
+      "Ansi 7 Color": {
+          "Blue Component": 1,
+          "Green Component": 1,
+          "Red Component": 1
+      },
+      "Selected Text Color": {
+          "Blue Component": 1,
+          "Green Component": 1,
+          "Red Component": 1
+      },
+      "Cursor Text Color": {
+          "Blue Component": 0.0940093994140625,
+          "Green Component": 0,
+          "Red Component": 1
+      },
+      "Ansi 15 Color": {
+          "Blue Component": 1,
+          "Green Component": 1,
+          "Red Component": 1
+      },
+      "Ansi 2 Color": {
+          "Blue Component": 0.04123397171497345,
+          "Green Component": 0.8818999528884888,
+          "Red Component": 0.5492880344390869
+      },
+      "Ansi 8 Color": {
+          "Blue Component": 0.2669683257918553,
+          "Green Component": 0.2669683257918553,
+          "Red Component": 0.2669683257918553
+      },
+      "Ansi 11 Color": {
+          "Blue Component": 0.2579230159432732,
+          "Green Component": 0.8228172084591399,
+          "Red Component": 1
+      },
+      "Bold Color": {
+          "Blue Component": 0.6024616956710815,
+          "Green Component": 0.6100342869758606,
+          "Red Component": 0.6195652484893799
+      },
+      "Ansi 3 Color": {
+          "Blue Component": 0,
+          "Green Component": 0.7265699505805969,
+          "Red Component": 1
+      },
+      "Ansi 9 Color": {
+          "Blue Component": 0.2492340242459266,
+          "Green Component": 0.1547040608087067,
+          "Red Component": 1
+      },
+      "Ansi 14 Color": {
+          "Blue Component": 0.9409477550477978,
+          "Green Component": 1,
+          "Red Component": 0.4042010611351281
+      },
+      "Background Color": {
+          "Blue Component": 0.09782606363296509,
+          "Green Component": 0.06092016771435738,
+          "Red Component": 0.0540635846555233
+      },
+      "Ansi 10 Color": {
+          "Blue Component": 0.3564648967772002,
+          "Green Component": 0.8818999529,
+          "Red Component": 0.6712605968805864
+      },
+      "Ansi 4 Color": {
+          "Blue Component": 0.9729408621788025,
+          "Green Component": 0.5548165440559387,
+          "Red Component": 0
+      },
+      "Cursor Color": {
+          "Blue Component": 0.0940093994140625,
+          "Green Component": 0,
+          "Red Component": 1
+      },
+      "Ansi 13 Color": {
+          "Blue Component": 0.9230769230769231,
+          "Green Component": 0.3741723268926602,
+          "Red Component": 0.6050448780078819
+      },
+      "Ansi 5 Color": {
+          "Blue Component": 0.6505221128463745,
+          "Green Component": 0.2631474435329437,
+          "Red Component": 0.425642341375351
+      },
+      "Ansi 0 Color": {
+          "Blue Component": 0.1357466063348416,
+          "Green Component": 0.1357466063348416,
+          "Red Component": 0.1357466063348416
+      },
+      "Ansi 6 Color": {
+          "Blue Component": 0.9226018190383911,
+          "Green Component": 0.8457558155059814,
+          "Red Component": 0
+      },
+      "Selection Color": {
+          "Blue Component": 0.2307692319154739,
+          "Green Component": 0.1649895012378693,
+          "Red Component": 0
+      },
+      "Ansi 12 Color": {
+          "Blue Component": 1,
+          "Green Component": 0.5733030673510271,
+          "Red Component": 0.0005335976291804823
+      },
+      "Foreground Color": {
+          "Blue Component": 0.9554870128631592,
+          "Green Component": 0.9804810881614685,
+          "Red Component": 1
+      },
+      "Ansi 1 Color": {
+          "Blue Component": 0.05887174606323242,
+          "Green Component": 0,
+          "Red Component": 1
+      }
+    },
+  ]
+}

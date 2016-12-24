@@ -332,6 +332,10 @@ defaults write com.apple.terminal StringEncodings -array 4
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
+# Use my custom profile as default.
+# Props: https://gitlab.com/gnachman/iterm2/issues/5382
+defaults write com.googlecode.iterm2 Default\ Bookmark\ Guid -string C311F384-3600-411C-ADFB-B3A5424D9D50
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################

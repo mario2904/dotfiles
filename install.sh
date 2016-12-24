@@ -37,6 +37,11 @@ if test ! -e ~/.vim/autoload/plug.vim; then
   vim +PlugInstall +qall;
 fi
 
+# ITerm2 Profile configurations 
+# See: https://www.iterm2.com/documentation-dynamic-profiles.html
+mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles
+ln -s $(pwd)/iterm_profiles.json ~/Library/Application\ Support/iTerm2/DynamicProfiles;
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos
