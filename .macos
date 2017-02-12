@@ -314,11 +314,17 @@ defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnab
 # Terminal & iTerm 2                                                          #
 ###############################################################################
 
+# Hide “Last login” message when logging
+touch ~/.hushlogin
+
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+# Hide scrollbars
+defaults write com.googlecode.iterm2 HideScrollbar -bool true
 
 # Use my custom profile as default.
 # Props: https://gitlab.com/gnachman/iterm2/issues/5382
