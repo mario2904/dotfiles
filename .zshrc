@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #MY CHANGES
-source .aliases
+source $HOME/.aliases
 
 # ZSH COMPLETIONS
 fpath=(/usr/local/share/zsh-completions $fpath)
