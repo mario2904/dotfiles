@@ -22,7 +22,6 @@ brew 'zsh-completions'
 
 # Other useful binaries.
 brew 'go'
-brew 'heroku'
 brew 'htop'
 brew 'httpie'
 brew 'httrack'
@@ -45,6 +44,9 @@ cask 'font-dejavu-sans-mono-for-powerline'
 # Apps
 cask 'airdroid'
 cask 'android-file-transfer'
+cask 'android-sdk'
+cask 'android-studio'
+cask 'android-studio-preview'
 cask 'cheatsheet'
 cask 'cyberghost'
 cask 'dash'

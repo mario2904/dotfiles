@@ -85,6 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 #MY CHANGES
 source $HOME/.aliases
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 
 # ZSH COMPLETIONS
 fpath=(/usr/local/share/zsh-completions $fpath)
